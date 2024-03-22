@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+    <style>
+      body {
+        font-family: Figtree;
+        background-color: #f6d050;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        background-color: white;
+        width: 350px;
+        border-radius: 5%;
+        border: 2px solid black;
+        box-shadow: 5px 5px black;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 10px;
+      }
+      p {
+        margin: 10px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+      span {
+        font-size: 12px;
+        margin: 10px, 10px, 30px, 10px;
+      }
+      .illustration {
+        border-radius: 5%;
+        width: 300px;
+      }
+      .date {
+        margin: 10px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .greg-icon {
+        width: 30px;
+      }
+
+      .subject {
+        background-color: #f6d050;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 80px;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="assets/images/illustration-article.svg" class="illustration" />
+      <div class="subject">Learning</div>
+
+      <div class="date">Published 21 Dec 2023</div>
+
+      <h1><strong>HTML & CSS foundations</strong></h1>
+
+      <p>
+        These languages are the backbone of every website, defining structure,
+        content, and presentation.
+      </p>
+      <img src="assets/images/image-avatar.webp" class="greg-icon" />
+      <span><strong>Greg Hooper</strong></span>
+    </div>
+  </body>
+</html>
